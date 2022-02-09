@@ -1,0 +1,110 @@
+/*
+    Theme name: Mon théme perso
+    Author: Alex
+    Description: Voici mon théme perso 
+    Version: 1.0
+    Text Domain: monthemeperso
+*/
+
+
+
+/*--------- CLASSES COULEUR POUR VISUALISER ARCHITECTURE --------*/
+
+.orang{
+    background-color: darkgoldenrod;
+    min-height: 15vh;
+}
+.jaune{
+    background-color: gold;
+    min-height: 15vh;
+}
+.bleu{
+    background-color: blue;
+    min-height: 25vh;
+}
+.violette{
+    background-color: violet;
+    min-height: 20vh;
+}
+.gris{
+    background-color: grey;
+    min-height: 20vh;
+}
+
+/* ~~~~~~~~~~~~~~~ generale ~~~~~~~~~~~~~~ */
+body{
+    font-family: 'Supermercado One', cursive;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Comforter', cursive;
+}
+li{
+    list-style-type: none;
+}
+
+
+/* ~~~~~~~~~~~~~~~~ HAEDER ~~~~~~~~~~~~~~~ */
+
+.first-row{
+    background-color: darkcyan;
+}
+.haut-gauche{
+    color: goldenrod;
+}
+
+/* ~~~~~~~~~~~~~~~ PAGE accueil ~~~~~~~~~~~~~~~ */
+
+h1.Accueil{
+    display: none;
+}
+.mes-competences{
+    font-size: 2rem;
+}
+
+/* ------------ VERSION MOBILE */
+
+@media only screen and (max-width: 992px){
+    #menu-menu-principal{
+        flex-direction: column;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~ */
+
+footer
+{
+    background-color:  darkcyan;
+    padding: 20px;
+}
+.bas-gauche h2
+{
+    color: aliceblue;
+}
+.bas-gauche a
+{
+    text-decoration: none;
+
+}
+.wp-social-link
+{
+    margin: 10px;
+}
+/*------  NAV --------------*/
+.menu-header
+{
+    width: 100%;
+}
+#menu-menu-principal
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#menu-menu-principal a 
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: goldenrod;
+}
